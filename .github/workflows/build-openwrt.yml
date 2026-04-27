@@ -23,7 +23,7 @@ permissions:
   contents: write
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
+  REPO_URL: https://github.com/qcgzxw/immortalwrt-mt798x-6.6
   REPO_BRANCH: openwrt-24.10-6.6
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -173,8 +173,8 @@ jobs:
         echo "账号：root" >> release.txt
         echo "密码：无" >> release.txt
         echo "默认主题：Argon" >> release.txt
-        echo "集成插件：aria2 diskman ksmbd hd-idle autoreboot mtwifi-cfg argon-config passwall iperf3 coremark" >> release.txt
-        echo "编译源码：https://github.com/padavanonly/immortalwrt-mt798x-6.6" >> release.txt
+        echo "集成插件：aria2 diskman ksmbd hd-idle autoreboot mtwifi-cfg argon-config passwall openclash frpc bandix ruby iperf3 coremark" >> release.txt
+        echo "编译源码：https://github.com/qcgzxw/immortalwrt-mt798x-6.6" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
