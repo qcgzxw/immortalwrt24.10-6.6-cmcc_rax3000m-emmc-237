@@ -33,14 +33,11 @@ RAX3000M-NAND 固件移步仓库上游
 
 - **mtwifi-cfg** - WiFi驱动配置工具
 - **argon-config** - Argon主题配置界面
-- **passwall** - 科学上网工具（含SingBox支持）
-- **OpenClash** - OpenClash代理工具
 
 ### 网络工具
 
 - **aria2** - 多协议下载工具
 - **ksmbd** - SMB文件共享服务
-- **frpc** - frp内网穿透客户端
 - **Bandix** - 多功能网络工具
 
 ### 系统管理
